@@ -78,7 +78,7 @@ main {
   font-weight: 700;
 }
 
-.container1 > button {
+.container1 > button, .container6 > button {
   border: 2px solid black;
   border-radius: 1px 15px;
   padding: 10px 30px;
@@ -106,7 +106,7 @@ aside {
   right: 13%;
   bottom: 95%;
   z-index: 1;
-  box-shadow: 12px 12px 2px 1px rgb(22, 21, 21, .1);
+  box-shadow: 12px 12px 2px 1px rgb(22, 21, 21, 0.1);
 }
 
 header {
@@ -178,9 +178,6 @@ ul {
   padding-top: 20px;
 }
 
-.container4 {
-}
-
 .container4 > img:first-child {
   width: 200px;
   height: 200px;
@@ -248,4 +245,59 @@ ul {
   position: absolute;
   top: 43px;
   font-size: 12px;
+}
+
+
+section {
+  width: 90vw;
+  height: 90vh;
+  background-image: url(./../img/last.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid white;
+  border-radius: 8px;
+  border-left: 40px solid rgba(196, 190, 190, 0.336);
+  border-right: 40px solid rgba(196, 190, 190, 0.336);
+  margin: auto;
+  background-position: bottom;
+  }
+
+  .container6{
+  text-align: center;
+  background-color: transparent;
+  padding: 10px;
+  color: white;
+  }
+
+.container6 > h3{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 40px;
+font-weight: 400;
+}
+
+.container6 > button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 10px;
+  padding: 10px 20px;
+}
+
+.container7{
+  width: calc(90vw-10px);
+  height: calc(90vh-20vh);
+  background-color: rgb(66, 64, 64);
+  position: relative;
+  margin-top: calc(90vh-10px);
+  display: flex;
+  padding: calc(90vw-10px);
+  color:white
+}
+
+.container7 > h4{
+c
+}
+
+.container7 > p{
+
 }

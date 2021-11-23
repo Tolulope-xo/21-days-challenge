@@ -110,7 +110,7 @@ aside {
 }
 
 header {
-  background-color: white;
+  background-color: black;
   width: 90vw;
   height: 95vh;
   border-radius: 8px;
@@ -123,6 +123,7 @@ header {
 
 #container3 {
   padding-top: 40px;
+  
 }
 
 #container3 > p,
@@ -251,15 +252,15 @@ ul {
 section {
   width: 90vw;
   height: 90vh;
-  background-image: url(./../img/last.jpg);
-  background-repeat: no-repeat;
+  background-color: black;
+
   background-size: cover;
   border: 1px solid white;
   border-radius: 8px;
   border-left: 40px solid rgba(196, 190, 190, 0.336);
   border-right: 40px solid rgba(196, 190, 190, 0.336);
   margin: auto;
-  background-position: bottom;
+  background-position: center;
   }
 
   .container6{
@@ -284,20 +285,29 @@ font-weight: 400;
 }
 
 .container7{
-  width: calc(90vw-10px);
-  height: calc(90vh-20vh);
+  width: fit-content;
+  height: 50px;
   background-color: rgb(66, 64, 64);
   position: relative;
-  margin-top: calc(90vh-10px);
   display: flex;
-  padding: calc(90vw-10px);
-  color:white
+  padding-left: 70px;
+  padding-right: 90px;
+
 }
 
 .container7 > h4{
-c
+
+font-size: 40px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 500;
+padding-top: 100px;
+color: white;
 }
 
 .container7 > p{
-
+padding-left: 50px;
+font-size: 15px;
+justify-items: centre;
+padding-top: 100px;
+color: white;
 }

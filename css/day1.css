@@ -1,4 +1,4 @@
-body {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -78,7 +78,8 @@ main {
   font-weight: 700;
 }
 
-.container1 > button, .container6 > button {
+.container1 > button,
+.container6 > button {
   border: 2px solid black;
   border-radius: 1px 15px;
   padding: 10px 30px;
@@ -112,7 +113,7 @@ aside {
 header {
   background-color: black;
   width: 90vw;
-  height: 95vh;
+  height: 90vh;
   border-radius: 8px;
   border-left: 40px solid rgba(196, 190, 190, 0.336);
   border-right: 40px solid rgba(196, 190, 190, 0.336);
@@ -123,7 +124,6 @@ header {
 
 #container3 {
   padding-top: 40px;
-  
 }
 
 #container3 > p,
@@ -248,7 +248,6 @@ ul {
   font-size: 12px;
 }
 
-
 section {
   width: 90vw;
   height: 90vh;
@@ -261,19 +260,19 @@ section {
   border-right: 40px solid rgba(196, 190, 190, 0.336);
   margin: auto;
   background-position: center;
-  }
+}
 
-  .container6{
+.container6 {
   text-align: center;
   background-color: transparent;
   padding: 10px;
   color: white;
-  }
+}
 
-.container6 > h3{
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 40px;
-font-weight: 400;
+.container6 > h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  font-weight: 400;
 }
 
 .container6 > button {
@@ -284,7 +283,7 @@ font-weight: 400;
   padding: 10px 20px;
 }
 
-.container7{
+.container7 {
   width: fit-content;
   height: 50px;
   background-color: rgb(66, 64, 64);
@@ -292,22 +291,129 @@ font-weight: 400;
   display: flex;
   padding-left: 70px;
   padding-right: 90px;
+}
+
+.container7 > h4 {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  padding-top: 100px;
+  color: white;
+}
+
+.container7 > p {
+  padding-left: 50px;
+  font-size: 15px;
+  justify-items: centre;
+  padding-top: 100px;
+  color: white;
+}
+
+.newsletter {
+  text-align: center;
+}
+
+.newsletter > h4 {
+  color: black;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.newsletter > p {
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+input[type="email"] {
+  margin-top: 60px;
+  width: 600px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 1px 1px 1px 10px;
+  background-color: white;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 10px;
+}
+
+input[type="button"] {
+  width: 100px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 1px 20px 1px 1px;
+  background-color: black;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
+
+.newsletter > .p2 {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 10px;
+  margin-left: 24%;
+  margin-bottom: 100px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 1px;
+  color: white;
+}
+
+.cont {
+  margin-top: 75px;
+  background-color: black;
+  color: white;
+  margin-left: auto;
+}
+
+.cont > h5{
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+.cont > h5 + p{
+  letter-spacing: 4.8px;
+  padding-bottom: 30px;
+}
+
+.cont > h5 + p + p{
+  padding-bottom: 50px;
+}
+
+.cont > svg {
+  height: max-content;
+  width: 20px;
+  fill: white;
+  position: relative;
+  top: 5px;
+}
+
+.cont > span {
+  white-space: nowrap;
+  padding-left: 20px;
+  
+}
+
+table {
+  margin: auto;
+  border-spacing: 25px;
+  margin-right: auto;
 
 }
 
-.container7 > h4{
-
-font-size: 40px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-weight: 500;
-padding-top: 100px;
-color: white;
+th {
+  font-weight: 900;
+  font-size: 20px;
 }
 
-.container7 > p{
-padding-left: 50px;
-font-size: 15px;
-justify-items: centre;
-padding-top: 100px;
-color: white;
+td {
+  font-weight: 600;
 }
